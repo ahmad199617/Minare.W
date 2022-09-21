@@ -77,7 +77,19 @@
                     }
 
 
+                    .img_menu_div {
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: stretch;
+                    }
+                    .img_menu_div img {
+
+                        height: 100%;
+                    }
                     
+
                     .icon-img-div {
                         height: 55%;
                         width: 25%;
@@ -245,9 +257,10 @@
                         top: 100px;
                         overflow: hidden;
                         transition: all 0.4s;
+                        box-shadow: 0px 0px 15px #000000;
                     }
                     .PRODUCTS-S-DIV {
-                        width: 33%;
+                        width: 34%;
                         background-color: #ffffff;
                         display: flex;
                         flex-direction: column;
@@ -570,15 +583,34 @@
                         height: auto;
                     }
                     
+                    
                     .text_img_S_div{
                         top: 120px;
+                        right: auto;
+                        left: auto;
                     }
+                    .div_img img{
+                        margin-top: 60px;
+                    }
+
+
                     .text_M_BAC{
-                        font-size: 30px;
+                        font-size: 25px;
                     }
                     .DIV_IMG_S{
                         width: 40px;
                         height: 40px;
+                        margin-top: auto;
+                    }
+                    .DIV_IMG_S img {
+                        margin-top: 0;
+                        margin: 0px;
+
+                    }
+
+
+                    .div_img{
+                        align-items: center;
                     }
 
 
@@ -611,6 +643,12 @@
                     margin-right: 50px;
                     cursor: pointer;
                 }
+                .PRODUCTS_div_m_A{
+                    display: flex;
+                    justify-content: center;
+                    position: relative;
+                }
+                
                 .PRODUCTS_div_m_3{
                     width: 350px;
                     height: 350px;
@@ -738,6 +776,7 @@
 
                 }
 
+
                 .itme_MI_IMG_TEXT{
                     width: 200px;
                     height: 340px;
@@ -751,6 +790,16 @@
                     margin: 10px;
 
                 }
+
+                .itme_MI_IMG_TEXT_A_DIV{
+                    display: flex;
+                    overflow: hidden;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+
+
                 .itme_MI_IMG_TEXT img{
                     
                     height: 100%;
@@ -806,10 +855,22 @@
                 .MI_B_DIV_S:hover {border-width: 5px;}
                 .itme_MI_IMG_TEXT:hover img {transform: scale(1.2);}
                 .itme_MI_IMG_TEXT:hover p {background-color: #333;color: white;} 
-
+                
+                .Minare_phone{
+                    display: none;
+                }
 
                 /* **************** Minare phone **********************/
                 @media only screen and (max-width: 1000px) {
+                    
+                    .Minare_section{
+                        display: none;
+                    }
+
+
+                    .Minare_phone{
+                        display: flex;
+                    }
                     
                     .Minare_section{
                         margin: 0;
@@ -827,12 +888,13 @@
                     
                     .itme_MI_IMG_TEXT p{
 
-                        font-size: 13px;
+                        font-size: 18px;
 
                     }
                     .itme_MI_IMG_TEXT{
 
                         height: 250px;
+                        margin: 5px;
 
                     }
 
@@ -924,18 +986,23 @@
                  /* **************** NUM_phone **********************/
                 @media only screen and (max-width: 1000px) {
                     .NUM{
-                        height: 220px;
+                        height: 400px;
                         margin-top: 50px;
                         margin-bottom: 50px;
+                        display: flex;
+                        flex-direction: column;
                     }
                     .img_div_num_text{
-                        width: 50%;
+                        width: 100%;
+                    }
+                    .img_div_num{
+                        width: 100%;
                     }
                     .text_m_num{
                         width: 100%;
                     }
                     .text_m_s_div p{
-                        font-size: 14px;
+                        font-size: 20px;
                     }
                     .ref_m_div_s p{
                         display: none;

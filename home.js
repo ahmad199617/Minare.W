@@ -241,6 +241,151 @@ document.addEventListener("DOMContentLoaded", function(){
                 
 
 
+                // *************************************************
+
+                function buttonMI5() {
+            
+                    document.querySelector(".buttonMI_DIV_5").style.opacity="100%";
+                    document.querySelector(".buttonMI_DIV_5").style.zIndex = "10";
+                    document.querySelector(".B_MI_5").style.backgroundColor="#333";
+                    document.querySelector(".B_MI_5").style.borderStyle="none";
+                                        
+                    document.querySelector(".buttonMI_DIV_6").style.opacity="0%";
+                    document.querySelector(".buttonMI_DIV_6").style.zIndex = "-1";
+                    document.querySelector(".B_MI_6").style.backgroundColor="#ffffff";
+                    document.querySelector(".B_MI_6").style.borderStyle="solid";
+                                        
+                    document.querySelector(".buttonMI_DIV_7").style.opacity="0%";
+                    document.querySelector(".buttonMI_DIV_7").style.zIndex = "-1";
+                    document.querySelector(".B_MI_7").style.backgroundColor="#ffffff";
+                    document.querySelector(".B_MI_7").style.borderStyle="solid";
+    
+                    document.querySelector(".buttonMI_DIV_8").style.opacity="0%";
+                    document.querySelector(".buttonMI_DIV_8").style.zIndex = "-1";
+                    document.querySelector(".B_MI_8").style.backgroundColor="#ffffff";
+                    document.querySelector(".B_MI_8").style.borderStyle="solid";
+
+                    document.querySelector(".buttonMI_DIV_9").style.opacity="0%";
+                    document.querySelector(".buttonMI_DIV_9").style.zIndex = "-1";
+                    document.querySelector(".B_MI_9").style.backgroundColor="#ffffff";
+                    document.querySelector(".B_MI_9").style.borderStyle="solid";
+    
+                }
+                function buttonMI6() {
+                
+                    document.querySelector(".buttonMI_DIV_6").style.opacity="100%";
+                    document.querySelector(".buttonMI_DIV_6").style.zIndex = "10";
+                    document.querySelector(".B_MI_5").style.backgroundColor="#ffffff";
+                    document.querySelector(".B_MI_5").style.borderStyle="solid";
+                    
+                    document.querySelector(".buttonMI_DIV_5").style.opacity="0%";
+                    document.querySelector(".buttonMI_DIV_5").style.zIndex = "-1";
+                    document.querySelector(".B_MI_6").style.backgroundColor="#333";
+                    document.querySelector(".B_MI_6").style.borderStyle="none";
+                    
+                    document.querySelector(".buttonMI_DIV_7").style.opacity="0%";
+                    document.querySelector(".buttonMI_DIV_7").style.zIndex = "-1";
+                    document.querySelector(".B_MI_7").style.backgroundColor="#ffffff";
+                    document.querySelector(".B_MI_7").style.borderStyle="solid";
+    
+                    document.querySelector(".buttonMI_DIV_8").style.opacity="0%";
+                    document.querySelector(".buttonMI_DIV_8").style.zIndex = "-1";
+                    document.querySelector(".B_MI_8").style.backgroundColor="#ffffff";
+                    document.querySelector(".B_MI_8").style.borderStyle="solid";
+
+                    document.querySelector(".buttonMI_DIV_9").style.opacity="0%";
+                    document.querySelector(".buttonMI_DIV_9").style.zIndex = "-1";
+                    document.querySelector(".B_MI_9").style.backgroundColor="#ffffff";
+                    document.querySelector(".B_MI_9").style.borderStyle="solid";
+    
+                    }
+                    function buttonMI7() {
+                
+                    document.querySelector(".buttonMI_DIV_7").style.opacity="100%";
+                    document.querySelector(".buttonMI_DIV_7").style.zIndex = "10";
+                    document.querySelector(".B_MI_5").style.backgroundColor="#ffffff";
+                    document.querySelector(".B_MI_5").style.borderStyle="solid";
+                        
+                    document.querySelector(".buttonMI_DIV_6").style.opacity="0%";
+                    document.querySelector(".buttonMI_DIV_6").style.zIndex = "-1";
+                    document.querySelector(".B_MI_6").style.backgroundColor="#ffffff";
+                    document.querySelector(".B_MI_6").style.borderStyle="solid";
+                        
+                    document.querySelector(".buttonMI_DIV_5").style.opacity="0%";
+                    document.querySelector(".buttonMI_DIV_5").style.zIndex = "-1";
+                    document.querySelector(".B_MI_7").style.backgroundColor="#333";
+                    document.querySelector(".B_MI_7").style.borderStyle="none";
+        
+                    document.querySelector(".buttonMI_DIV_8").style.opacity="0%";
+                    document.querySelector(".buttonMI_DIV_8").style.zIndex = "-1";
+                    document.querySelector(".B_MI_8").style.backgroundColor="#ffffff";
+                    document.querySelector(".B_MI_8").style.borderStyle="solid";
+                    
+                    document.querySelector(".buttonMI_DIV_9").style.opacity="0%";
+                    document.querySelector(".buttonMI_DIV_9").style.zIndex = "-1";
+                    document.querySelector(".B_MI_9").style.backgroundColor="#ffffff";
+                    document.querySelector(".B_MI_9").style.borderStyle="solid";
+        
+                        }
+                function buttonMI8() {
+                
+                    document.querySelector(".buttonMI_DIV_8").style.opacity="100%";
+                    document.querySelector(".buttonMI_DIV_8").style.zIndex = "10";
+                    document.querySelector(".B_MI_5").style.backgroundColor="#ffffff";
+                    document.querySelector(".B_MI_5").style.borderStyle="solid";
+                            
+                    document.querySelector(".buttonMI_DIV_6").style.opacity="0%";
+                    document.querySelector(".buttonMI_DIV_6").style.zIndex = "-1";
+                    document.querySelector(".B_MI_6").style.backgroundColor="#ffffff";
+                    document.querySelector(".B_MI_6").style.borderStyle="solid";
+                            
+                    document.querySelector(".buttonMI_DIV_5").style.opacity="0%";
+                    document.querySelector(".buttonMI_DIV_5").style.zIndex = "-1";
+                    document.querySelector(".B_MI_7").style.backgroundColor="#ffffff";
+                    document.querySelector(".B_MI_7").style.borderStyle="solid";
+            
+                    document.querySelector(".buttonMI_DIV_7").style.opacity="0%";
+                    document.querySelector(".buttonMI_DIV_7").style.zIndex = "-1";
+                    document.querySelector(".B_MI_8").style.backgroundColor="#333";
+                    document.querySelector(".B_MI_8").style.borderStyle="none";
+
+                    document.querySelector(".buttonMI_DIV_9").style.opacity="0%";
+                    document.querySelector(".buttonMI_DIV_9").style.zIndex = "-1";
+                    document.querySelector(".B_MI_9").style.backgroundColor="#ffffff";
+                    document.querySelector(".B_MI_9").style.borderStyle="solid";
+            
+                    }   
+
+                    function buttonMI9() {
+                
+                        document.querySelector(".buttonMI_DIV_9").style.opacity="100%";
+                        document.querySelector(".buttonMI_DIV_9").style.zIndex = "10";
+                        document.querySelector(".B_MI_5").style.backgroundColor="#ffffff";
+                        document.querySelector(".B_MI_5").style.borderStyle="solid";
+                                
+                        document.querySelector(".buttonMI_DIV_6").style.opacity="0%";
+                        document.querySelector(".buttonMI_DIV_6").style.zIndex = "-1";
+                        document.querySelector(".B_MI_6").style.backgroundColor="#ffffff";
+                        document.querySelector(".B_MI_6").style.borderStyle="solid";
+                                
+                        document.querySelector(".buttonMI_DIV_5").style.opacity="0%";
+                        document.querySelector(".buttonMI_DIV_5").style.zIndex = "-1";
+                        document.querySelector(".B_MI_7").style.backgroundColor="#ffffff";
+                        document.querySelector(".B_MI_7").style.borderStyle="solid";
+                
+                        document.querySelector(".buttonMI_DIV_7").style.opacity="0%";
+                        document.querySelector(".buttonMI_DIV_7").style.zIndex = "-1";
+                        document.querySelector(".B_MI_9").style.backgroundColor="#333";
+                        document.querySelector(".B_MI_9").style.borderStyle="none";
+    
+                        document.querySelector(".buttonMI_DIV_8").style.opacity="0%";
+                        document.querySelector(".buttonMI_DIV_8").style.zIndex = "-1";
+                        document.querySelector(".B_MI_8").style.backgroundColor="#ffffff";
+                        document.querySelector(".B_MI_8").style.borderStyle="solid";
+                
+                        }  
+
+
 
 
 
