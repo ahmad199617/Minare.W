@@ -242,8 +242,10 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
                 // *************************************************
+                var proN = 5
 
                 function buttonMI5() {
+                    proN = 5
             
                     document.querySelector(".buttonMI_DIV_5").style.opacity="100%";
                     document.querySelector(".buttonMI_DIV_5").style.zIndex = "10";
@@ -272,6 +274,7 @@ document.addEventListener("DOMContentLoaded", function(){
     
                 }
                 function buttonMI6() {
+                    proN = 6
                 
                     document.querySelector(".buttonMI_DIV_6").style.opacity="100%";
                     document.querySelector(".buttonMI_DIV_6").style.zIndex = "10";
@@ -300,6 +303,7 @@ document.addEventListener("DOMContentLoaded", function(){
     
                     }
                     function buttonMI7() {
+                    proN = 7
                 
                     document.querySelector(".buttonMI_DIV_7").style.opacity="100%";
                     document.querySelector(".buttonMI_DIV_7").style.zIndex = "10";
@@ -328,6 +332,7 @@ document.addEventListener("DOMContentLoaded", function(){
         
                         }
                 function buttonMI8() {
+                    proN = 8
                 
                     document.querySelector(".buttonMI_DIV_8").style.opacity="100%";
                     document.querySelector(".buttonMI_DIV_8").style.zIndex = "10";
@@ -357,6 +362,7 @@ document.addEventListener("DOMContentLoaded", function(){
                     }   
 
                     function buttonMI9() {
+                        proN = 9
                 
                         document.querySelector(".buttonMI_DIV_9").style.opacity="100%";
                         document.querySelector(".buttonMI_DIV_9").style.zIndex = "10";
@@ -384,6 +390,79 @@ document.addEventListener("DOMContentLoaded", function(){
                         document.querySelector(".B_MI_8").style.borderStyle="solid";
                 
                         }  
+
+
+                        
+
+                        let touchstartX = 0
+                        let touchendX = 0
+                            
+                        function checkDirection() {
+                        if (touchendX < touchstartX){
+
+
+                            if(proN==9){
+                                buttonMI5 ()
+                                console.log(proN);
+                        }else{
+                                    if(proN==8){
+                                    buttonMI9 ()
+                                    console.log(proN);
+                        }else{
+                                    if(proN==7){
+                                    buttonMI8 ()
+                                    console.log(proN);
+                        }else{                            
+                                    if(proN==6){
+                                    buttonMI7 ()
+                                    console.log(proN);
+                        }else{                            
+                                    if(proN==5){
+                                    buttonMI6 ()
+                                    console.log(proN);
+                                }}}}}}
+                        
+                        
+                        
+                
+                        if (touchendX > touchstartX){
+
+                        if(proN==9){
+                                    buttonMI5 ()
+                                    proN --
+                                    console.log(proN);
+                        }else{
+                                    if(proN==8){
+                                    buttonMI9 ()
+                                        proN --
+                                    console.log(proN);
+                        }else{
+                                    if(proN==7){
+                                    buttonMI8 ()
+                                    proN --
+                                    console.log(proN);
+                        }else{                            
+                                    if(proN==6){
+                                    buttonMI7 ()
+                                    proN --
+                                    console.log(proN);
+                        }else{                            
+                                    if(proN==5){
+                                    buttonMI6 ()
+                                    proN =9
+                                    console.log(proN);
+                                }}}}}}
+                        }
+                
+                        document.addEventListener('touchstart', e => {
+                        touchstartX = e.changedTouches[0].screenX
+                        })
+                
+                        document.addEventListener('touchend', e => {
+                        touchendX = e.changedTouches[0].screenX
+                        checkDirection()
+                        })
+                
 
 
 
