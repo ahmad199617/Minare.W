@@ -60,9 +60,22 @@
                     ul{list-style: none;}
                     
                     /* ****************header PC**********************/
+
                     header {
                         position: absolute;
                         width: 100%;
+                    }
+                    .page{
+                        font-size: 0;
+                        width: 1px;
+                        height: 1px;
+                        display: inline-block;
+                        overflow: hidden;
+                        position: absolute!important;
+                        border: 0!important;
+                        padding: 0!important;
+                        margin: 0!important;
+                        clip: rect(1px,1px,1px,1px);
                     }
                     
                     
@@ -547,10 +560,10 @@
             .text_img_S_div{
                 
                 position: absolute;
-                top: 221px;
                 left: 15%;
                 display: flex;
                 flex-direction: column;
+                margin-bottom: 90px;
                 }
             .DIV_IMG_S{
                 width: 70px;
@@ -748,7 +761,7 @@
                     align-items: center;
                     margin-bottom: 80px;
                 }
-                .MI_TEXT_DIV P{                    
+                .MI_TEXT_DIV p{                    
                     color: #333;
                     font-family: 'Bebas Neue', cursive;
                     font-size: 40px;
@@ -1346,7 +1359,7 @@
                     cursor: pointer;
                 }
                 
-                .ref_m_div_s_text p {                    
+                .ref_m_div_s_text h1 {                    
                     
                     color: #1A4990;
                     font-family: 'Bebas Neue', cursive;
@@ -1486,7 +1499,7 @@
                     transition: all 0.2s;
                 }
 
-                .news_div-text p{                    
+                .news_div-text h1{                    
                     
                     color: #333;
                     font-family: 'Bebas Neue', cursive;
@@ -2029,7 +2042,7 @@
 
              
             /* ****************footer phone**********************/
-
+h2{display: none;}
 
              @media only screen and (max-width: 1000px) {
                 .WHATSAPP-img-div {
